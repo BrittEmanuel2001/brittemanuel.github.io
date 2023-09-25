@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    margin: 50px 20% 0;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+}
+
+p{
+    color: white;
+    line-height: 1.5;
+}
+
+p:nth-of-type(2){
+    margin-bottom: 40px;
+}
+
+p:last-of-type{
+    text-align: center;
+}
+
+.header-image{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.inside-image{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.text-with-bg{
+    background-color: blueviolet;
+    padding: 40px;
+    margin-bottom: 0;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
